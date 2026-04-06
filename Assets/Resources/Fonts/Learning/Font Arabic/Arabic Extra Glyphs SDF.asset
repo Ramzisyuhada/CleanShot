@@ -12,21 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Arabic Extra Glyphs SDF
   m_EditorClassIdentifier: 
-  hashCode: 1847928584
-  material: {fileID: 1514470291608026203}
-  materialHashCode: -549145176
   m_Version: 1.1.0
-  m_SourceFontFileGUID: 143a377b562534503acddb86880729f7
-  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 143a377b562534503acddb86880729f7,
-    type: 3}
-  m_SourceFontFile: {fileID: 0}
-  m_AtlasPopulationMode: 0
   m_FaceInfo:
     m_FaceIndex: 0
     m_FamilyName: Arabic
     m_StyleName: Extra
     m_PointSize: 107
     m_Scale: 1
+    m_UnitsPerEM: 0
     m_LineHeight: 128.4209
     m_AscentLine: 77.898926
     m_CapLine: 77
@@ -42,6 +35,31 @@ MonoBehaviour:
     m_StrikethroughOffset: 22.4
     m_StrikethroughThickness: 2.6123047
     m_TabWidth: 30
+  m_Material: {fileID: 1514470291608026203}
+  m_SourceFontFileGUID: 143a377b562534503acddb86880729f7
+  m_CreationSettings:
+    sourceFontFileName: 
+    sourceFontFileGUID: dab3f933de1f94cd8aa9350401baffde
+    faceIndex: 0
+    pointSizeSamplingMode: 0
+    pointSize: 107
+    padding: 5
+    paddingMode: 0
+    packingMode: 4
+    atlasWidth: 256
+    atlasHeight: 256
+    characterSetSelectionMode: 6
+    characterSequence: 249C,249D,249E,249F,24A0,24A1,24A2,24A3,FBE5,FBE6
+    referencedFontAssetGUID: c3f6f721d34bc44f8a98d226f1d661aa
+    referencedTextAssetGUID: 
+    fontStyle: 0
+    fontStyleModifier: 0
+    renderMode: 16422
+    includeFontFeatures: 1
+  m_SourceFontFile: {fileID: 0}
+  m_SourceFontFilePath: 
+  m_AtlasPopulationMode: 0
+  InternalDynamicOS: 0
   m_GlyphTable:
   - m_Index: 1981
     m_Metrics:
@@ -57,6 +75,7 @@ MonoBehaviour:
       m_Height: 50
     m_Scale: 1
     m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
   - m_Index: 1983
     m_Metrics:
       m_Width: 29.78125
@@ -71,6 +90,7 @@ MonoBehaviour:
       m_Height: 67
     m_Scale: 1
     m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
   - m_Index: 2415
     m_Metrics:
       m_Width: 29.78125
@@ -85,6 +105,7 @@ MonoBehaviour:
       m_Height: 68
     m_Scale: 1
     m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
   - m_Index: 2416
     m_Metrics:
       m_Width: 60.34375
@@ -99,6 +120,7 @@ MonoBehaviour:
       m_Height: 65
     m_Scale: 1
     m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
   - m_Index: 2417
     m_Metrics:
       m_Width: 53.4375
@@ -113,6 +135,7 @@ MonoBehaviour:
       m_Height: 103
     m_Scale: 1
     m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
   - m_Index: 2418
     m_Metrics:
       m_Width: 60.34375
@@ -127,6 +150,7 @@ MonoBehaviour:
       m_Height: 58
     m_Scale: 1
     m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
   - m_Index: 2419
     m_Metrics:
       m_Width: 53.4375
@@ -141,6 +165,7 @@ MonoBehaviour:
       m_Height: 96
     m_Scale: 1
     m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
   - m_Index: 2420
     m_Metrics:
       m_Width: 60.453125
@@ -155,6 +180,7 @@ MonoBehaviour:
       m_Height: 68
     m_Scale: 1
     m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
   - m_Index: 2421
     m_Metrics:
       m_Width: 29.78125
@@ -169,6 +195,7 @@ MonoBehaviour:
       m_Height: 65
     m_Scale: 1
     m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
   - m_Index: 2422
     m_Metrics:
       m_Width: 66.609375
@@ -183,6 +210,7 @@ MonoBehaviour:
       m_Height: 39
     m_Scale: 1
     m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
   m_CharacterTable:
   - m_ElementType: 1
     m_Unicode: 9372
@@ -228,7 +256,12 @@ MonoBehaviour:
   - {fileID: 1537950142462576649}
   m_AtlasTextureIndex: 0
   m_IsMultiAtlasTexturesEnabled: 0
+  m_GetFontFeatures: 1
   m_ClearDynamicDataOnBuild: 0
+  m_AtlasWidth: 256
+  m_AtlasHeight: 256
+  m_AtlasPadding: 5
+  m_AtlasRenderMode: 16422
   m_UsedGlyphRects:
   - m_X: 0
     m_Y: 0
@@ -295,57 +328,14 @@ MonoBehaviour:
     m_Y: 119
     m_Width: 37
     m_Height: 136
-  m_fontInfo:
-    Name: 
-    PointSize: 0
-    Scale: 0
-    CharacterCount: 0
-    LineHeight: 0
-    Baseline: 0
-    Ascender: 0
-    CapHeight: 0
-    Descender: 0
-    CenterLine: 0
-    SuperscriptOffset: 0
-    SubscriptOffset: 0
-    SubSize: 0
-    Underline: 0
-    UnderlineThickness: 0
-    strikethrough: 0
-    strikethroughThickness: 0
-    TabWidth: 0
-    Padding: 0
-    AtlasWidth: 0
-    AtlasHeight: 0
-  atlas: {fileID: 0}
-  m_AtlasWidth: 256
-  m_AtlasHeight: 256
-  m_AtlasPadding: 5
-  m_AtlasRenderMode: 16422
-  m_glyphInfoList: []
-  m_KerningTable:
-    kerningPairs: []
   m_FontFeatureTable:
+    m_MultipleSubstitutionRecords: []
+    m_LigatureSubstitutionRecords: []
     m_GlyphPairAdjustmentRecords: []
-  fallbackFontAssets: []
+    m_MarkToBaseAdjustmentRecords: []
+    m_MarkToMarkAdjustmentRecords: []
+  m_ShouldReimportFontFeatures: 0
   m_FallbackFontAssetTable: []
-  m_CreationSettings:
-    sourceFontFileName: 
-    sourceFontFileGUID: dab3f933de1f94cd8aa9350401baffde
-    pointSizeSamplingMode: 0
-    pointSize: 107
-    padding: 5
-    packingMode: 4
-    atlasWidth: 256
-    atlasHeight: 256
-    characterSetSelectionMode: 6
-    characterSequence: 249C,249D,249E,249F,24A0,24A1,24A2,24A3,FBE5,FBE6
-    referencedFontAssetGUID: c3f6f721d34bc44f8a98d226f1d661aa
-    referencedTextAssetGUID: 
-    fontStyle: 0
-    fontStyleModifier: 0
-    renderMode: 16422
-    includeFontFeatures: 1
   m_FontWeightTable:
   - regularTypeface: {fileID: 0}
     italicTypeface: {fileID: 0}
@@ -374,6 +364,33 @@ MonoBehaviour:
   boldSpacing: 7
   italicStyle: 35
   tabSize: 10
+  m_fontInfo:
+    Name: 
+    PointSize: 0
+    Scale: 0
+    CharacterCount: 0
+    LineHeight: 0
+    Baseline: 0
+    Ascender: 0
+    CapHeight: 0
+    Descender: 0
+    CenterLine: 0
+    SuperscriptOffset: 0
+    SubscriptOffset: 0
+    SubSize: 0
+    Underline: 0
+    UnderlineThickness: 0
+    strikethrough: 0
+    strikethroughThickness: 0
+    TabWidth: 0
+    Padding: 0
+    AtlasWidth: 0
+    AtlasHeight: 0
+  m_glyphInfoList: []
+  m_KerningTable:
+    kerningPairs: []
+  fallbackFontAssets: []
+  atlas: {fileID: 0}
 --- !u!21 &1514470291608026203
 Material:
   serializedVersion: 8
@@ -383,6 +400,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Arabic Extra Glyphs SDF Material
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -391,6 +410,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -444,9 +464,9 @@ Material:
     - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 1
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 1
+    - _ScaleRatioA: 0.8333333
+    - _ScaleRatioB: 0.6770833
+    - _ScaleRatioC: 0.6770833
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -479,6 +499,7 @@ Material:
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!28 &1537950142462576649
 Texture2D:
   m_ObjectHideFlags: 0
@@ -489,10 +510,8 @@ Texture2D:
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
   m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
+  serializedVersion: 4
   m_Width: 256
   m_Height: 256
   m_CompleteImageSize: 65536
@@ -501,7 +520,8 @@ Texture2D:
   m_MipCount: 1
   m_IsReadable: 0
   m_IsPreProcessed: 0
-  m_IgnoreMasterTextureLimit: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
   m_StreamingMipmaps: 0
   m_StreamingMipmapsPriority: 0
   m_VTOnly: 0
